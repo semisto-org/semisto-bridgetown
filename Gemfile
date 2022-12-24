@@ -37,3 +37,7 @@ gem "mail_form", "~> 1.9.0"
 
 # Mailgun's Official Ruby Library
 gem "mailgun-ruby", "~> 1.2.5"
+
+gem "sentry-ruby"
+gem "sentry-rails"
+
