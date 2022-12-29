@@ -32,8 +32,8 @@ title: En route vers l'ère des forêts comestibles
                 <div>
                     <div class="mt-6">
                         <h2>Formations 🧑🏽‍🏫</h2>
-                        <p class="mt-4 text-lg text-gray-500">Apprendre à <strong>faire naitre votre forêt-jardin et à l'entretenir</strong> jusqu'à ce qu'elle vous apporte ses plus belles récoltes. Ou <strong>apprendre un nouveau métier</strong> et devenir concepteur de paysages comestibles.</p>
-                        <div class="mt-6"><a class="btn-primary" href="/poles/formations-jardins-forets">Nos formations 2023</a></div>
+                        <p class="mt-4 text-lg text-gray-500">Apprendre à <strong>faire naitre votre forêt-jardin et à l'entretenir</strong> jusqu'à ce qu'elle vous apporte ses plus belles récoltes. Ou <strong>apprendre un nouveau métier</strong> et devenir concepteur de paysages comestibles!</p>
+                        <div class="mt-6"><a class="btn-primary" href="/poles/formations-jardins-forets">Nos formations 2023-2024</a></div>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@ title: En route vers l'ère des forêts comestibles
                 <div>
                     <div class="mt-6">
                         <h2 class="text-5xl tracking-tight font-serif text-gray-900">Bureau d'études 👩‍🎨</h2>
-                        <p class="mt-4 text-lg text-gray-500">Nous concevons <strong>en équipe</strong> des forêts-jardins qui répondent à vos besoins et qui respectent votre vision.</p>
+                        <p class="mt-4 text-lg text-gray-500">Nous concevons <strong>en équipe</strong> des forêts-jardins et paysages comestibles qui respectent votre vision, qui regénèrent la biosphère et vous reconnectent à la nature.</p>
                         <div class="mt-6"><a class="btn-primary" href="/poles/design-jardins-forets">Le bureau d'études</a></div>
                     </div>
                 </div>
@@ -64,8 +64,8 @@ title: En route vers l'ère des forêts comestibles
                 <div>
                     <div class="mt-6">
                         <h2 class="text-5xl tracking-tight font-serif text-gray-900">Food Forest Heroes 🦸‍♂️</h2>
-                        <p class="mt-4 text-lg text-gray-500">Nous plantons joyeusement <strong>des milliers d'arbres nourriciers dans votre entreprise</strong> au rythme des meilleurs DJ, et nous célébrons nos chantiers réunis sous le Chapiteau des Food Forest Heroes.</p>
-                        <div class="mt-6"><a class="btn-primary" href="/poles/food-forest-heroes">WAW! En savoir plus</a></div>
+                        <p class="mt-4 text-lg text-gray-500">Nous plantons joyeusement <strong>des forêts nourricières dans votre entreprise</strong> et nous célébrons nos chantiers réunis sous le Chapiteau des Food Forest Heroes, tissant du lien au sein de vos équipes, avec vos clients et partenaires.</p>
+                        <div class="mt-6"><a class="btn-primary" href="/poles/food-forest-heroes">WAW! En savoir plus sur les Food Forest Heroes</a></div>
                     </div>
                 </div>
             </div>
@@ -80,8 +80,8 @@ title: En route vers l'ère des forêts comestibles
                 <div>
                     <div class="mt-6">
                         <h2 class="text-5xl font-serif tracking-tight text-gray-900">Chasseurs de plants 🕵🏻‍♂️</h2>
-                        <p class="mt-4 text-lg text-gray-500">Votre liste de plantes est prête? Nous nous chargeons de <strong>réunir des plants de qualité</strong> et nous vous les livrons au meilleur moment.</p>
-                        <div class="mt-6"><a class="btn-primary" href="/poles/chasseur-de-plants">En savoir plus</a></div>
+                        <p class="mt-4 text-lg text-gray-500">Votre liste de plantes est prête? Nous nous chargeons de <strong>réunir des plants de qualité</strong> et nous vous les livrons au meilleur moment pour que vous profitiez du meilleur moment (avant les récoltes!), la naissance de votre forêt-jardin.</p>
+                        <div class="mt-6"><a class="btn-primary" href="/poles/chasseur-de-plants">Let's go hunting!</a></div>
                     </div>
                 </div>
             </div>
