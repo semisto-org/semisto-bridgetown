@@ -56,7 +56,11 @@
                             </a>
                         </div>
                     </div>
-                </div><a class="font-medium text-gray-500 hover:text-gray-900 " href="{{ '/forets-comestibles' | relative_url }}">Forêts comestibles</a><a class="font-medium text-gray-500 hover:text-gray-900  " href="{{ '/a-propos-de-semisto' | relative_url }}">À propos</a><a class="font-medium text-gray-500 hover:text-gray-900  " href="{{ '/contact' | relative_url }}">Contact</a></div>
+                </div>
+                    <a class="{% if resource.relative_url == '/forets-comestibles/' %}text-gray-900{% else %}text-gray-500{% endif %} font-medium hover:text-gray-900" href="{{ '/forets-comestibles' | relative_url }}">Forêts comestibles</a>
+                    <a class="{% if resource.relative_url == '/a-propos-de-semisto/' %}text-gray-900{% else %}text-gray-500{% endif %} font-medium hover:text-gray-900" href="{{ '/a-propos-de-semisto' | relative_url }}">À propos</a>
+                    <a class="{% if resource.relative_url == '/contact/' %}text-gray-900{% else %}text-gray-500{% endif %} font-medium hover:text-gray-900" href="{{ '/contact' | relative_url }}">Contact</a>
+                </div>
         </div>
         <div class="hidden text-right md:block"><span class="mr-6 inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5"><a class="inline-flex items-center rounded-md border border-transparent bg-white px-4 py-2 text-base font-medium text-indigo-600 hover:bg-gray-50" href="https://wiki.semisto.org">Wiki 📚</a></span><span class="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5"><a class="inline-flex items-center rounded-md border border-transparent bg-white px-4 py-2 text-base font-medium text-indigo-600 hover:bg-gray-50" href="https://plantes.semisto.org">Base de données 🌱</a></span></div>
     </nav>
