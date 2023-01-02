@@ -5,11 +5,12 @@ layout: default
 title: En route vers l'ère des forêts comestibles
 ---
 
-<div class="relative pb-16 sm:pb-24 lg:pb-32">
+<div class="relative pb-16 sm:pb-24 lg:pb-0">
     <main class="mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-0">
         <div class="lg:grid lg:grid-cols-12 lg:gap-8">
-            <div class="sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:text-left"><a class="inline-flex items-center rounded-full bg-yellow-500 p-1 pr-2 text-semisto-4 hover:text-gray-900 sm:text-base lg:text-sm xl:text-base" href="/financement"><span class="rounded-full bg-orange-600 px-3 text-sm font-semibold leading-5 text-white hover:text-yellow-200 py-0.5">Financement en cours</span><span class="ml-4 text-sm">Vous aussi, financez Semisto!</span><!--Heroicon name: mini/chevron-right--><svg aria-hidden="true" class="ml-2 h-5 w-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" fill-rule="evenodd"></path></svg></a>
-                <h1><span class="mt-4 block text-4xl font-bold font-serif tracking-tight sm:text-5xl xl:text-5xl"><span class="flex text-semisto-3">En route vers</span><span class="flex text-semisto-2">l'ère des forêts comestibles</span></span>
+            <div class="sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:text-left">
+                <a class="inline-flex items-center rounded-full bg-yellow-500 p-1 pr-2 text-semisto-4 hover:text-gray-900 sm:text-base lg:text-sm xl:text-base" href="/financement"><span class="rounded-full bg-orange-600 px-3 text-sm font-semibold leading-5 text-white hover:text-yellow-200 py-0.5">Financement en cours</span><span class="ml-4 text-sm">Vous aussi, financez Semisto!</span><!--Heroicon name: mini/chevron-right--><svg aria-hidden="true" class="ml-2 h-5 w-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" fill-rule="evenodd"></path></svg></a>
+                <h1><span class="mt-4 block text-4xl font-bold font-serif tracking-tight sm:text-center lg:text-left sm:text-5xl xl:text-5xl"><span class="block text-semisto-3">En route vers</span><span class="block text-semisto-2">l'ère des forêts comestibles</span></span>
                 </h1>
                 <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">Semisto donne les moyens aux générations présentes et futures de transformer rues, champs et jardins en paysages comestibles : des écosystèmes résilients à impact ultra-positif pour les humains, le sol et la biodiversité, pour nourrir l’humanité et régénérer la biosphère.</p>
                 <div class="mt-8 sm:mx-auto sm:max-w-lg sm:text-center lg:mx-0 lg:text-left">
@@ -25,7 +26,7 @@ title: En route vers l'ère des forêts comestibles
     </main>
 </div>
 
-<div class="relative overflow-hidden bg-white pt-16 pb-32">
+<div class="relative overflow-hidden bg-white pt-16">
     <div class="relative">
         <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div class="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
@@ -42,7 +43,7 @@ title: En route vers l'ère des forêts comestibles
             </div>
         </div>
     </div>
-    <div class="mt-24">
+    <div class="mt-16">
         <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div class="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0">
                 <div>
@@ -58,7 +59,7 @@ title: En route vers l'ère des forêts comestibles
             </div>
         </div>
     </div>
-    <div class="relative mt-24">
+    <div class="relative mt-16">
         <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div class="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
                 <div>
@@ -74,7 +75,7 @@ title: En route vers l'ère des forêts comestibles
             </div>
         </div>
     </div>
-    <div class="mt-24">
+    <div class="mt-16">
         <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div class="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0">
                 <div>
