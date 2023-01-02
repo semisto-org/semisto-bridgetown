@@ -17,7 +17,7 @@ title: En route vers l'ère des forêts comestibles
             <p><strong>Voici 40 ans, des pionniers ont commencé à concevoir de nouveaux écosystèmes en s’inspirant des peuples indigènes tropicaux.</strong></p>
             <p>Ces peuples jardinent la forêt, avec respect. Les pionniers ont créé les premières forêts-jardins en région tempérée : des arbres, arbustes, herbacées et lianes produisent pour les êtres humains en harmonie avec tous les êtres vivants, dans un système écologique conçu sur le modèle d’une jeune forêt naturelle.</p>
 
-            <div>
+            <!--div>
                 <div class="relative mx-auto mt-12 max-w-prose text-base lg:mt-0 lg:max-w-none">
                     <blockquote class="relative rounded-lg bg-white shadow-lg">
                         <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
@@ -37,7 +37,7 @@ title: En route vers l'ère des forêts comestibles
                         </cite>
                     </blockquote>
                 </div>
-            </div>
+            </div-->
 
             <p>Nous nous sommes habitués à tout obtenir rapidement, là où une forêt comestible mettra plusieurs années à naître et nécessite une phase de conception en amont. Il s’agit pourtant de la solution la plus à même de soutenir les générations qui nous suivent face aux crises majeures à venir.</p>
             <p>Ces environnements productifs et résilients seront légués à nos enfants et petits-enfants, qui continueront à les maintenir et à les diversifier en réponse aux aléas environnementaux. Ces forêts comestibles auront un impact majeur, voire inestimable. Ressourçantes, nourrissantes et sécurisantes, elles répondent en tout aux principes de la permaculture : prendre soin de la Terre, prendre soin des hommes et partager équitablement les ressources.</p>

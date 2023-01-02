@@ -1,0 +1,17 @@
+---
+layout: page
+title: Formations données par :prototype-data-label
+prototype:
+  collection: courses
+  term: instructor
+  data: instructors
+  data_label: name
+---
+
+<h1>{{ page.data.title }}</h1>
+
+<h2>LinkedIn: @{{ page.data.author_data.linkedin }}</h2>
+
+{% for course in paginator.resources %}
+  {% render "shared/course", course: course %}
+{% endfor %}

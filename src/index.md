@@ -33,7 +33,7 @@ title: En route vers l'ère des forêts comestibles
                     <div class="mt-6">
                         <h2>Formations 🧑🏽‍🏫</h2>
                         <p class="mt-4 text-lg text-gray-500">Apprendre à <strong>faire naitre votre forêt-jardin et à l'entretenir</strong> jusqu'à ce qu'elle vous apporte ses plus belles récoltes. Ou <strong>apprendre un nouveau métier</strong> et devenir concepteur de paysages comestibles!</p>
-                        <div class="mt-6"><a class="btn-primary" href="/poles/formations-jardins-forets">Nos formations 2023-2024</a></div>
+                        <div class="mt-6"><a class="btn-primary" href="{{ '/formations' | relative_url }}">Nos formations 2023-2024</a></div>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@ title: En route vers l'ère des forêts comestibles
                     <div class="mt-6">
                         <h2 class="text-5xl tracking-tight font-serif text-gray-900">Food Forest Heroes 🦸‍♂️</h2>
                         <p class="mt-4 text-lg text-gray-500">Nous plantons joyeusement <strong>des forêts nourricières dans votre entreprise</strong> et nous célébrons nos chantiers réunis sous le Chapiteau des Food Forest Heroes, tissant du lien au sein de vos équipes, avec vos clients et partenaires.</p>
-                        <div class="mt-6"><a class="btn-primary" href="/poles/food-forest-heroes">WAW! En savoir plus sur les Food Forest Heroes</a></div>
+                        <div class="mt-6"><a class="btn-primary" href="/poles/food-forest-heroes">WAW! Je découvre</a></div>
                     </div>
                 </div>
             </div>

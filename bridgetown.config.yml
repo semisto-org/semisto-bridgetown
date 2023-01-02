@@ -32,3 +32,9 @@ template_engine: liquid
 # timezone: America/Los_Angeles
 # pagination:
 #   enabled: true
+
+collections:
+  courses:
+    output: true
+    sort_by: position
+    sort_direction: descending

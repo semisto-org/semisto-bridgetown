@@ -1,0 +1,72 @@
+---
+layout: page
+title: Formations
+---
+
+<div class="bg-white">
+    <div class="mx-auto max-w-7xl py-8 px-4 sm:py-12 sm:px-6 lg:flex lg:justify-between lg:px-8">
+        <div class="max-w-7xl">
+            <h2 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">Formations</h2>
+            <p class="mt-5 text-xl text-gray-500">Pour le grand public et les futurs professionnels de la forêt comestible</p>
+        </div>
+    </div>
+</div>
+
+<div class="bg-white">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:flex lg:justify-between lg:px-8">
+      <div class="mt-8 sm:mx-auto sm:max-w-xl sm:text-center lg:mx-0 lg:text-left">
+          <p class="text-base font-medium text-gray-900">Nos formations démarrerons en 2023. Envie d'en savoir plus? Inscrivez-vous pour que nous vous tenions au courant.</p>
+          <form class="mt-3 sm:flex" action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="d664529f-04ad-4795-8432-7f2a4eee4349">
+
+            <label class="sr-only" for="waitlist-email">Adresse email</label>
+            <input id="waitlist-email" required="required" autocomplete="email" placeholder="Mon adresse email" class="block w-full rounded-md border-gray-300 py-3 text-base placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:flex-1" type="text" name="email" id="waitlist-email">
+
+            <input type="text" name="honeypot" style="display: none;"> 
+
+            <input type="hidden" name="$waitlist" value="formations-2023">
+            <input type="hidden" name="replyTo" value="@">
+            <input type="hidden" name="redirectTo" value="{{ '/confirmation-liste-d-attente' | absolute_url }}">
+
+            <button class="btn-primary mt-3 sm:mt-0 sm:ml-3" type="submit">Tenez-moi au courant</button>
+          </form>
+
+          <p class="mt-3 text-sm text-gray-500">Nous prenons soin de vos données. Consultez notre <a class="font-medium text-gray-500 underline" href="{{ '/vie-privee' | relative_url }}">charte de respect de la vie privée</a></p>
+      </div>
+    </div>
+</div>
+
+<!--div class="bg-white">
+  <div class="mx-auto max-w-7xl sm:py-2 sm:px-6">
+    <div class="mt-8 sm:mx-auto sm:max-w-lg sm:text-center lg:mx-0 lg:text-left">
+        <p class="text-base font-medium text-gray-900">Nos formations démarrerons en 2023. Envie d'en savoir plus? Inscrivez-vous pour que nous vous tenions au courant.</p>
+        <form id="new_waitlist_subscriber" class="mt-3 sm:flex" action="/waitlist_subscribers" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="iNB104YfqbmCB4QwdbEMtdIOYq6KhzlVX7XeNmDGGOwrrPwFHMib3o2H7uPFgdJAqblA0YpNM1Vo_1D9K1Kjqw" autocomplete="off"><input value="trainings-2023" autocomplete="off" type="hidden" name="waitlist_subscriber[waitlist][slug]" id="waitlist_subscriber_waitlist_slug"><label class="sr-only" for="waitlist_subscriber_email">Adresse email</label><input required="required" autocomplete="email" placeholder="Mon adresse email" class="block w-full rounded-md border-gray-300 py-3 text-base placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:flex-1" type="text" name="waitlist_subscriber[email]" id="waitlist_subscriber_email"><button class="btn-primary mt-3 sm:mt-0 sm:ml-3" type="submit">Tenez-moi au courant</button></form>
+        <p class="mt-3 text-sm text-gray-500">Nous prenons soin de vos données. Consultez notre <a class="font-medium text-gray-500 underline" href="#">charte de respect de la vie privée</a></p>
+    </div>
+
+    <div class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-4 lg:gap-x-8">
+      {% for course in collections.courses.resources %}
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md ease-in duration-300 hover:shadow-lg dark:bg-gray-800 dark:border-gray-700">
+            <a href="{{ course.relative_url }}">
+              <div class="relative">
+                <img class="rounded-t-lg" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=558&q=80" alt="({{ course.data.title }})" />
+                <div class="absolute bottom-2 right-2">
+                  <span class="inline-flex items-center rounded-full bg-yellow-100 px-3 py-0.5 text-sm font-medium text-yellow-800">{{ course.data.duration }}</span>
+                </div>
+              </div>
+            </a>
+            <div class="p-5">
+                <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <a href="{{ course.relative_url }}">{{ course.data.title }}</a>
+                </h3>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{{ course.data.summary }}</p>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-semisto-1 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                  Infos et inscriptions
+                  <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div-->
