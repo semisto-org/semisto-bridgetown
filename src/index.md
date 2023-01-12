@@ -14,13 +14,25 @@ title: En route vers l'ère des forêts comestibles
                 </h1>
                 <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">Semisto donne les moyens aux générations présentes et futures de transformer rues, champs et jardins en paysages comestibles : des écosystèmes résilients à impact ultra-positif pour les humains, le sol et la biodiversité, pour nourrir l’humanité et régénérer la biosphère.</p>
                 <div class="mt-8 sm:mx-auto sm:max-w-lg sm:text-center lg:mx-0 lg:text-left">
-                    <p class="text-base font-medium text-gray-900">Nos formations démarrerons en 2023. Envie d'en savoir plus? Inscrivez-vous pour que nous vous tenions au courant.</p>
+                    <p class="text-base font-medium text-gray-900">Nos formations démarreront en 2023. Envie d'en savoir plus? Inscrivez-vous pour que nous vous tenions au courant.</p>
                     <form id="new_waitlist_subscriber" class="mt-3 sm:flex" action="/waitlist_subscribers" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="iNB104YfqbmCB4QwdbEMtdIOYq6KhzlVX7XeNmDGGOwrrPwFHMib3o2H7uPFgdJAqblA0YpNM1Vo_1D9K1Kjqw" autocomplete="off"><input value="trainings-2023" autocomplete="off" type="hidden" name="waitlist_subscriber[waitlist][slug]" id="waitlist_subscriber_waitlist_slug"><label class="sr-only" for="waitlist_subscriber_email">Adresse email</label><input required="required" autocomplete="email" placeholder="Mon adresse email" class="block w-full rounded-md border-gray-300 py-3 text-base placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:flex-1" type="text" name="waitlist_subscriber[email]" id="waitlist_subscriber_email"><button class="btn-primary mt-3 sm:mt-0 sm:ml-3" type="submit">Tenez-moi au courant</button></form>
                     <p class="mt-3 text-sm text-gray-500">Nous prenons soin de vos données. Consultez notre <a class="font-medium text-gray-500 underline" href="#">charte de respect de la vie privée</a></p>
                 </div>
             </div>
             <div class="relative mt-12 sm:mx-auto sm:max-w-lg lg:col-span-6 lg:mx-0 lg:mt-0 lg:flex lg:max-w-none lg:items-center"><svg aria-hidden="true" class="absolute top-0 origin-top -translate-y-8 scale-75 transform sm:scale-100 lg:hidden left-1/2 -translate-x-1/2" fill="none" height="784" viewBox="0 0 640 784" width="640"><defs><pattern height="20" id="4f4f415c-a0e9-44c2-9601-6ded5a34a13e" patternUnits="userSpaceOnUse" width="20" x="118" y="0"><rect class="text-gray-200" fill="currentColor" height="4" width="4" x="0" y="0"></rect></pattern></defs><rect class="text-gray-50" fill="currentColor" height="640" width="640" y="72"></rect><rect fill="url(#4f4f415c-a0e9-44c2-9601-6ded5a34a13e)" height="784" width="404" x="118"></rect></svg>
-                <div class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md"><button class="relative block w-full overflow-hidden rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" type="button"><span class="sr-only">Consultez notre vidéo pour en savoir plus</span><img alt="" class="w-full" src="https://images.unsplash.com/photo-1597175587534-f8c5307f9c0a?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80"><span aria-hidden="true" class="absolute inset-0 flex h-full w-full items-center justify-center"><svg class="h-20 w-20 text-indigo-500" fill="currentColor" viewBox="0 0 84 84"><circle cx="42" cy="42" fill="white" opacity="0.9" r="42"></circle><path d="M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z"></path></svg></span></button></div>
+                <img src="{{ 'images/bienvenue.png' | relative_url }}" class="relative block w-full mx-auto lg:max-w-md" alt="Semisto - forêts comestibles, forêts-jardins, Ecosystèmes comestibles">
+                <!--div class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
+                    <button class="relative block w-full overflow-hidden rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" type="button">
+                        <span class="sr-only">Consultez notre vidéo pour en savoir plus</span>
+                        <img alt="" class="w-full" src="https://images.unsplash.com/photo-1597175587534-f8c5307f9c0a?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80">
+                        <span aria-hidden="true" class="absolute inset-0 flex h-full w-full items-center justify-center">
+                            <svg class="h-20 w-20 text-indigo-500" fill="currentColor" viewBox="0 0 84 84">
+                                <circle cx="42" cy="42" fill="white" opacity="0.9" r="42"></circle>
+                                <path d="M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z"></path>
+                            </svg>
+                        </span>
+                    </button>
+                </div-->
             </div>
         </div>
     </main>

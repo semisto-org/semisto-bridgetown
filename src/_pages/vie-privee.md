@@ -31,7 +31,7 @@ title: Charte de respect de la vie privée
 
         	<p>
 				La confidentialité de vos données - et il s'agit de vos données, pas des nôtres - est une 
-				uestion importante pour nous. Nous expliquons sur cette page : quelles données nous 
+				question importante pour nous. Nous expliquons sur cette page : quelles données nous 
 				collectons et pourquoi ; comment vos données sont traitées ; et vos droits en ce qui 
 				concerne vos données. Nous vous promettons de ne jamais vendre vos données : nous ne 
 				l'avons jamais fait et ne le ferons jamais.
