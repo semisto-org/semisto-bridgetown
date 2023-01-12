@@ -18,16 +18,14 @@ title: En route vers l'ère des forêts comestibles
                     <!--form id="new_waitlist_subscriber" class="mt-3 sm:flex" action="/waitlist_subscribers" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="iNB104YfqbmCB4QwdbEMtdIOYq6KhzlVX7XeNmDGGOwrrPwFHMib3o2H7uPFgdJAqblA0YpNM1Vo_1D9K1Kjqw" autocomplete="off"><input value="trainings-2023" autocomplete="off" type="hidden" name="waitlist_subscriber[waitlist][slug]" id="waitlist_subscriber_waitlist_slug"><label class="sr-only" for="waitlist_subscriber_email">Adresse email</label><input required="required" autocomplete="email" placeholder="Mon adresse email" class="block w-full rounded-md border-gray-300 py-3 text-base placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:flex-1" type="text" name="waitlist_subscriber[email]" id="waitlist_subscriber_email"><button class="btn-primary mt-3 sm:mt-0 sm:ml-3" type="submit">Tenez-moi au courant</button></form-->
                     <form class="mt-3 sm:flex" action="https://api.staticforms.xyz/submit" method="post">
                         <input type="hidden" name="accessKey" value="d664529f-04ad-4795-8432-7f2a4eee4349">
-
+                        
                         <label class="sr-only" for="waitlist-email">Adresse email</label>
                         <input id="waitlist-email" required="required" autocomplete="email" placeholder="Mon adresse email" class="block w-full rounded-md border-gray-300 py-3 text-base placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:flex-1" type="text" name="email" id="waitlist-email">
-
+                        
                         <input type="text" name="honeypot" style="display: none;"> 
-
                         <input type="hidden" name="$waitlist" value="formations-2023">
                         <input type="hidden" name="replyTo" value="@">
-                        <input type="hidden" name="redirectTo" value="{{ '/confirmation-liste-d-attente' | absolute_url }}">
-
+                        <input type="hidden" name="redirectTo" value="https://www.semisto.org/confirmation-liste-d-attente">
                         <button class="btn-primary mt-3 sm:mt-0 sm:ml-3" type="submit">Tenez-moi au courant</button>
                     </form>
 
