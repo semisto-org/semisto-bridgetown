@@ -7,6 +7,8 @@ import components from "bridgetownComponents/**/*.{js,jsx,js.rb,css}"
 
 console.info("Bridgetown is loaded!")
 
+import "flowbite/dist/flowbite.js";
+
 window.Stimulus = Application.start()
 
 import controllers from "./controllers/**/*.{js,js.rb}"
