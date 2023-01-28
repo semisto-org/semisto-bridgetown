@@ -1,19 +1,17 @@
 ---
 layout: course
 title: Concepteur de forêts comestibles
-category: metiers
-instructors: mhu
 position: 0
+instructors: mhu
 summary: Maitriser l'écologie forestière, le design et l'implantation en 10 mois
 duration: 32 jours
 course_date: septembre 2023 à juin 2024
 public: tous publics
 image: images/formations/formation-concepteur-de-forets-comestibles.jpg
+registration_url: https://semisto.punchpass.com/intake_forms/concepteur-de-forets-comestibles-2023?embed=true
 ---
 
 <div class="prose prose-slate prose-a:text-blue-600 prose-img:rounded-md lg:prose-lg">
-	<h2>En bref</h2>
-
 	<p class="lead">Semisto a réuni une équipe de choc pour 12 étudiants motivés qui auront la chance de devenir les premiers Concepteurs de Forêts Comestibles certifiés. Ensemble, ils ont conçu ce tout nouveau cursus: plus de 200 heures de connaissances partagées sur l'écologie, le design, l'implantation et la gestion, suivi par 32 heures de co-création de ton propre projet de design. En juin 2024, tu es certifié Concepteur de Forêts Comestibles!</p>
 
 	<p>Nous rentrerons en détails dans les
@@ -632,28 +630,12 @@ image: images/formations/formation-concepteur-de-forets-comestibles.jpg
 	</div>
 </div>
 
-<div class="bg-white">
-  <div class="w-full pt-8 sm:pt-16">
-    <div class="relative isolate overflow-hidden bg-semisto-2 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" class="absolute top-1/2 left-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:translate-y-0 lg:-translate-x-1/2" aria-hidden="true">
-        <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" />
-        <defs>
-          <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(512 512) rotate(90) scale(512)">
-            <stop stop-color="#927AA3"></stop>
-            <stop offset="1" stop-color="#927AA3" stop-opacity="0"></stop>
-          </radialGradient>
-        </defs>
-      </svg>
-      <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-        <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Deviens concepteur de forêts comestibles.</h2>
-        <p class="mt-6 text-lg leading-8 text-gray-100">Rejoins la première cohorte d'étudiants, approfondis tes connaissances ou lance-toi dans un nouveau métier extraordinaire.</p>
-        <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-          <a href="https://semisto.punchpass.com/intake_forms/concepteur-de-forets-comestibles-2023?embed=true" class="rounded-md bg-white px-3.5 py-1.5 text-base font-semibold leading-7 text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Formulaire d'inscription</a>
-        </div>
-      </div>
-      <div class="relative h-80">
-        <img class="absolute top-0 left-0 w-[36rem] max-w-none bg-white/5 ring-1 ring-white/10" src="{{ 'images/formations/formation-concepteur-de-forets-comestibles.jpg' | relative_url }}" alt="Illustration sur la formation de concepteur de forêts comestibles" width="1024" height="1024">
-      </div>
-    </div>
-  </div>
-</div>
+{% rendercontent "cta", link: resource.data.registration_url, image_path: resource.data.image %}
+	{% with title %}
+		Devenir concepteur de forêts comestibles.
+	{% endwith %}
+	{% with description %}
+		Rejoins la première cohorte d'étudiants, approfondis tes connaissances ou lance-toi dans un 
+		nouveau métier extraordinaire.
+	{% endwith %}
+{% endrendercontent %}

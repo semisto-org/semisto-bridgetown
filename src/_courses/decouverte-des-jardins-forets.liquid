@@ -1,19 +1,17 @@
 ---
 layout: course
 title: À la découverte des jardins-forêts
-category: decouverte
-instructors: mhu
 position: 3
+instructors: mhu
 duration: 1 jour
 course_date: 15 avril 2023
 summary: Découvrir une nouvelle façon de penser et de vivre le jardin
 public: tous publics
 image: images/formations/formation-decouverte-jardin-foret.jpg
+registration_url: https://les4sources.punchpass.com/classes/12544835
 ---
 
 <div class="prose prose-slate prose-a:text-blue-600 prose-img:rounded-md lg:prose-lg">
-	<h2>En bref</h2>
-
 	<p class="lead">Viens découvrir une nouvelle façon de penser et de vivre le jardin!</p>
 
 	<p>Le jardin-forêt est un jardin romantique, une petite jungle ou encore des haies fruitières où l'abondance est à tous les étages et où la diversité invite à la diversité.</p>
@@ -116,31 +114,16 @@ image: images/formations/formation-decouverte-jardin-foret.jpg
 	<p>Pour réserver un lit dans une des chambres de la Maison Communautaire, suis-nous <a href="https://www.les4sources.be/notre-maison-communautaire">sur le site web des 4 Sources</a>.</p>
 </div>
 
-<div class="bg-white">
-  <div class="w-full pt-8 sm:pt-16">
-    <div class="relative isolate overflow-hidden bg-semisto-2 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" class="absolute top-1/2 left-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:translate-y-0 lg:-translate-x-1/2" aria-hidden="true">
-        <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" />
-        <defs>
-          <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(512 512) rotate(90) scale(512)">
-            <stop stop-color="#927AA3"></stop>
-            <stop offset="1" stop-color="#927AA3" stop-opacity="0"></stop>
-          </radialGradient>
-        </defs>
-      </svg>
-      <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-        <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Découvre les jardins-forêts, <br>les clés pour démarrer.</h2>
-        <p class="mt-6 text-lg leading-8 text-gray-100">Une journée avec Michael Hulet aux 4 Sources pour appréhender le concept de jardin-forêt et de strates végétales, et repartir avec l'envie de planter l'abondance au jardin.</p>
-        <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-          <a href="https://les4sources.punchpass.com/classes/12544835" class="rounded-md bg-white px-3.5 py-1.5 text-base font-semibold leading-7 text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Formulaire d'inscription</a>
-        </div>
-      </div>
-      <div class="relative h-80">
-        <img class="absolute top-0 left-0 w-[36rem] max-w-none bg-white/5 ring-1 ring-white/10" src="{{ 'images/formations/formation-decouverte-jardin-foret.jpg' | relative_url }}" alt="Illustration sur la découverte des jardins-forêts" width="1024" height="1024">
-      </div>
-    </div>
-  </div>
-</div>
+{% rendercontent "cta", link: resource.data.registration_url, image_path: resource.data.image %}
+	{% with title %}
+		Découvrir les jardins-forêts, <br>
+		les clés pour démarrer.
+	{% endwith %}
+	{% with description %}
+		Une journée avec Michael Hulet aux 4 Sources pour appréhender le concept de jardin-forêt et de 
+		strates végétales, et repartir avec l'envie de planter l'abondance au jardin.
+	{% endwith %}
+{% endrendercontent %}
 
 <!-- TODO ajouter lien vers conditions générales -->
 <!-- TODO ajouter liens vers les autres formations -->
