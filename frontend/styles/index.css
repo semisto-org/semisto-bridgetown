@@ -14,7 +14,7 @@
   --action-color: #d64045;
 }
 
-@layer components {
+@layer base {
   h1 {
     @apply mt-1 text-4xl font-serif tracking-tight text-gray-900 sm:text-5xl lg:text-6xl;
   }
@@ -32,7 +32,7 @@
   }
 
   a {
-    @apply text-blue-400;
+    @apply text-blue-600;
   }
 
   footer a {
@@ -56,6 +56,10 @@
   .nice-links a {
     @apply underline underline-offset-4 decoration-2 decoration-blue-300 motion-safe:transition-all motion-safe:duration-200 hover:underline-offset-2 focus:underline-offset-2 hover:decoration-blue-500/50 focus:decoration-blue-500/50;
     /* @apply underline decoration-yellow-500 decoration-[0.25rem] motion-safe:transition-all motion-safe:duration-200 hover:decoration-[0.5rem] focus:decoration-[0.5rem] hover:decoration-yellow-500/50 focus:decoration-yellow-500/50; */
+  }
+
+  .accordion-heading {
+    @apply text-blue-500 dark:text-blue-300;
   }
 }
 

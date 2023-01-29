@@ -1,0 +1,29 @@
+<div class="bg-white">
+  <div class="w-full pt-8 sm:pt-16">
+    <div class="relative isolate overflow-hidden bg-semisto-2 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-12 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" class="absolute top-1/2 left-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:translate-y-0 lg:-translate-x-1/2" aria-hidden="true">
+        <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" />
+        <defs>
+          <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(512 512) rotate(90) scale(512)">
+            <stop stop-color="#927AA3"></stop>
+            <stop offset="1" stop-color="#927AA3" stop-opacity="0"></stop>
+          </radialGradient>
+        </defs>
+      </svg>
+      <div class="mx-auto max-w-md text-center mb-8 lg:mx-0 lg:flex-auto lg:py-24 lg:text-left">
+        <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">{{ title }}</h2>
+        <p class="mt-6 text-lg leading-8 text-gray-100">{{ description }}</p>
+        <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+          <a href="{{ link }}" target="_blank" class="rounded-md bg-white px-3.5 py-1.5 text-base font-semibold leading-7 text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Formulaire d'inscription</a>
+        </div>
+      </div>
+      <div class="relative h-80 -ml-8 -mr-8 md:h-[36rem] lg:mx-0 lg:h-80">
+        <img class="absolute top-0 left-0 w-full max-w-none bg-white/5 ring-1 ring-white/10 lg:w-[36rem]" src="{{ image_path | relative_url }}" alt="Illustration sur le design permaculturel" width="1024" height="1024">
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!--div class="relative h-80 -ml-8">
+        <img class="absolute top-0 left-0 w-full w-[36rem] max-w-none bg-white/5 ring-1 ring-white/10" src="{{ image_path | relative_url }}" alt="Illustration sur le design permaculturel" width="1024" height="1024">
+      </div-->

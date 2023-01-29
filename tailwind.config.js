@@ -6,7 +6,8 @@ module.exports = {
   content: [
     './src/**/*.{html,md,liquid,erb,serb,rb}',
     './frontend/javascript/**/*.js',
-    './node_modules/tailwind-stimulus-components/src/*.js'
+    './node_modules/tailwind-stimulus-components/src/*.js',
+    './node_modules/flowbite/**/*.js'
   ],
   // All the default values will be compiled unless they are overridden below
   theme: {
@@ -37,5 +38,6 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('@tailwindcss/line-clamp'),
     require('@tailwindcss/typography'),
+    require('flowbite/plugin'),
   ],
 }
