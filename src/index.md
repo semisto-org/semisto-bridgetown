@@ -10,9 +10,9 @@ title: En route vers l'ère des forêts comestibles
         <div class="lg:grid lg:grid-cols-12 lg:gap-8">
             <div class="sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:text-left">
                 <a class="inline-flex items-center rounded-full bg-yellow-500 p-1 pr-2 text-semisto-4 hover:text-gray-900 sm:text-base lg:text-sm xl:text-base" href="/financement"><span class="rounded-full bg-orange-600 px-3 text-sm font-semibold leading-5 text-white hover:text-yellow-200 py-0.5">Financement en cours</span><span class="ml-4 text-sm text-white">Vous aussi, financez Semisto!</span><!--Heroicon name: mini/chevron-right--><svg aria-hidden="true" class="ml-2 h-5 w-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" fill-rule="evenodd"></path></svg></a>
-                <h1><span class="mt-4 block text-4xl font-bold font-serif tracking-tight sm:text-center lg:text-left sm:text-5xl xl:text-5xl"><span class="block text-semisto-3">En route vers</span><span class="block text-semisto-2">l'ère des forêts comestibles</span></span>
+                <h1><span class="mt-4 block text-4xl bg-clip-text text-transparent bg-gradient-to-r from-semisto-3 to-semisto-4 font-bold font-serif tracking-tight sm:text-center lg:text-left sm:text-5xl xl:text-5xl"><span class="block">En route vers</span><span class="block">l'ère des forêts comestibles</span></span>
                 </h1>
-                <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">Semisto donne les moyens aux générations présentes et futures de transformer rues, champs et jardins en paysages comestibles : des écosystèmes résilients à impact ultra-positif pour les humains, le sol et la biodiversité, pour nourrir l’humanité et régénérer la biosphère.</p>
+                <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">Semisto donne les moyens aux générations présentes et futures de transformer rues, champs et jardins en paysages comestibles : <span class="bg-yellow-200 font-bold">des écosystèmes résilients à impact ultra-positif pour les humains, le sol et la biodiversité, pour nourrir l’humanité et régénérer la biosphère.</span></p>
                 <!--div class="mt-8 sm:mx-auto sm:max-w-lg sm:text-center lg:mx-0 lg:text-left">
                     <p class="text-base font-medium text-gray-900">Nos formations démarreront en 2023. Envie d'en savoir plus? Inscrivez-vous pour que nous vous tenions au courant.</p>
                     <form class="mt-3 sm:flex" action="https://api.staticforms.xyz/submit" method="post">
@@ -64,7 +64,7 @@ title: En route vers l'ère des forêts comestibles
                 </div>
             </div>
             <div class="mt-12 sm:mt-16 lg:mt-0">
-                <div class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"><img alt="" class="w-full rounded-2xl shadow-xl lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="{{ 'images/hubs/large/formations.jpg' | relative_url }}"></div>
+                <div class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"><img alt="" class="w-full rounded-2xl shadow-xl lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="{{ 'images/pastels/pastel-fraises.jpg' | relative_url }}"></div>
             </div>
         </div>
     </div>
@@ -80,7 +80,7 @@ title: En route vers l'ère des forêts comestibles
                 </div>
             </div>
             <div class="mt-12 sm:mt-16 lg:mt-0">
-                <div class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"><img alt="" class="w-full rounded-2xl shadow-xl lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="/images/hubs/large/bureau.jpg"></div>
+                <div class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"><img alt="" class="w-full rounded-2xl shadow-xl lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="{{ 'images/pastels/pastel-vigne.jpg' | relative_url }}"></div>
             </div>
         </div>
     </div>
@@ -96,7 +96,7 @@ title: En route vers l'ère des forêts comestibles
                 </div>
             </div>
             <div class="mt-12 sm:mt-16 lg:mt-0">
-                <div class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"><img alt="" class="w-full lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="/images/hubs/large/heroes.jpg"></div>
+                <div class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"><img alt="" class="w-full rounded-2xl shadow-xl lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="{{ 'images/pastels/pastel-lierre.jpg' | relative_url }}"></div>
             </div>
         </div>
     </div>
@@ -111,8 +111,8 @@ title: En route vers l'ère des forêts comestibles
                     </div>
                 </div>
             </div>
-            <div class="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
-                <div class="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"><img alt="" class="w-full lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="/images/hubs/large/chasseur-de-plants.jpg"></div>
+            <div class="mt-12 sm:mt-16 lg:mt-0">
+                <div class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"><img alt="" class="w-full rounded-2xl shadow-xl lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="{{ 'images/pastels/pastel-abricots.jpg' | relative_url }}"></div>
             </div>
         </div>
     </div>
