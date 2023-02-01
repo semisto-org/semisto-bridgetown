@@ -64,7 +64,7 @@ title: En route vers l'ère des forêts comestibles
                 </div>
             </div>
             <div class="mt-12 sm:mt-16 lg:mt-0">
-                <div class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"><img alt="" class="w-full lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="/images/hubs/large/formations.jpg"></div>
+                <div class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"><img alt="" class="w-full rounded-2xl shadow-xl lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="{{ 'images/hubs/large/formations.jpg' | relative_url }}"></div>
             </div>
         </div>
     </div>
@@ -80,7 +80,7 @@ title: En route vers l'ère des forêts comestibles
                 </div>
             </div>
             <div class="mt-12 sm:mt-16 lg:mt-0">
-                <div class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"><img alt="" class="w-full lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="/images/hubs/large/bureau.jpg"></div>
+                <div class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"><img alt="" class="w-full rounded-2xl shadow-xl lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="/images/hubs/large/bureau.jpg"></div>
             </div>
         </div>
     </div>
