@@ -33,8 +33,16 @@ template_engine: liquid
 # pagination:
 #   enabled: true
 
+available_locales: [fr]
+default_locale: fr
+prefix_default_locale: false
+
 collections:
   courses:
     output: true
     sort_by: position
     sort_direction: ascending
+  events:
+    output: true
+    permalink: pretty
+    future: true

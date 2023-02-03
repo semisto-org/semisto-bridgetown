@@ -57,6 +57,7 @@
                         </div>
                     </div>
                 </div>
+                    <a class="{% if resource.relative_url == '/evenements/' %}text-gray-900{% else %}text-gray-500{% endif %} font-medium hover:text-gray-900" href="{{ '/evenements' | relative_url }}">Événements</a>
                     <a class="{% if resource.relative_url == '/forets-comestibles/' %}text-gray-900{% else %}text-gray-500{% endif %} font-medium hover:text-gray-900" href="{{ '/forets-comestibles' | relative_url }}">Forêts comestibles</a>
                     <a class="{% if resource.relative_url == '/a-propos-de-semisto/' %}text-gray-900{% else %}text-gray-500{% endif %} font-medium md:hidden lg:inline-block lg:hover:text-gray-900" href="{{ '/a-propos-de-semisto' | relative_url }}">À propos</a>
                     <a class="{% if resource.relative_url == '/contact/' %}text-gray-900{% else %}text-gray-500{% endif %} font-medium hover:text-gray-900" href="{{ '/contact' | relative_url }}">Contact</a>
@@ -95,6 +96,7 @@
             </div>
             <div class="space-y-1 px-2 pt-2 pb-3">
               <a class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900" href="{{ '/formations' | relative_url }}">Formations</a>
+              <a class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900" href="{{ '/evenements' | relative_url }}">Événements</a>
               <a class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900" href="{{ '/poles/design-jardins-forets' | relative_url }}">Bureau d'études</a>
               <a class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900" href="{{ '/poles/food-forest-heroes' | relative_url }}">Food Forest Heroes</a>
               <a class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900" href="{{ '/poles/chasseur-de-plants' | relative_url }}">Chasseur de plants</a>
