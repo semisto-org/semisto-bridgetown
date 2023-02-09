@@ -4,6 +4,34 @@
     {% render "head", metadata: site.metadata, title: resource.data.title, environment: bridgetown.environment %}
   </head>
   <body class="{{ resource.data.layout }} {{ resource.data.page_class }}">
+    <div class="relative bg-semisto-2 shadow-lg">
+      <div class="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
+        <div class="pr-16 sm:px-16 sm:text-center">
+          <p class="font-medium text-white">
+            <span class="md:hidden">Événement: la forêt nourricière des Jardins d'ici</span>
+            <span class="hidden md:inline">
+              <span class="mr-2 inline-flex items-center rounded-full bg-yellow-100 px-3 py-0.5 text-sm font-medium text-yellow-800">Événement</span>
+              Participe à la naissance de la forêt nourricière des Jardins d'ici
+            </span>
+            <span class="block sm:ml-2 sm:inline-block">
+              <a href="/events/2023/03/12/naissance-de-la-foret-nourriciere-des-jardins-d-ici/" class="font-bold text-white underline">
+                Tous les détails
+                <span aria-hidden="true"> &rarr;</span>
+              </a>
+            </span>
+          </p>
+        </div>
+        <!--div class="absolute inset-y-0 right-0 flex items-start pt-1 pr-1 sm:items-start sm:pt-1 sm:pr-2">
+          <button type="button" class="flex rounded-md p-2 hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white">
+            <span class="sr-only">Dismiss</span>
+            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div-->
+      </div>
+    </div>
+
     <div class="relative overflow-hidden">
       <div class="relative py-6 bg-white/75">
         {% render "navbar", metadata: site.metadata, resource: resource %}
