@@ -4,60 +4,10 @@
             <div class="flex w-full items-center justify-between md:w-auto"><a href="/"><span class="sr-only">Semisto</span><img class="h-8 w-auto sm:h-10" alt="" src="{{ '/images/logo-s.png' | relative_url }}" alt="Semisto"></a>
                 <div class="-mr-2 flex items-center md:hidden"><button aria-expanded="false" class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" data-action="click->toggle#show touch->toggle#show" type="button"><span class="sr-only">Ouvrir le menu principal</span><!--Heroicon name: outline/bars-3--><svg aria-hidden="true" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></button></div>
             </div>
-            <div class="hidden md:ml-10 md:block md:space-x-6" data-controller="dropdown" data-dropdown-enter-timeout="200" data-dropdown-entering-class="transition ease-out" data-dropdown-invisible-class="opacity-0 translate-y-1" data-dropdown-leave-timeout="150" data-dropdown-leaving-class="transition ease-in" data-dropdown-visible-class="opacity-100 translate-y-0" aria-haspopup="true" aria-expanded="false">
-                <!--Item active: "text-gray-900", Item inactive: "text-gray-500"--><button aria-expanded="false" class="text-gray-500 group inline-flex items-center rounded-md text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" data-action="click->dropdown#toggle click@window->dropdown#hide" data-dropdown-target="button" type="button"><span>Pôles</span><!--| Heroicon name: mini/chevron-down
-| Item active: "text-gray-600", Item inactive: "text-gray-400"--><svg aria-hidden="true" class="text-gray-400 ml-2 h-5 w-5 transition duration-150 ease-in-out group-hover:text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" fill-rule="evenodd"></path></svg></button>
-                <!--| Flyout menu, show/hide based on flyout menu state.
-
-| Entering: "transition ease-out duration-200"
-| From: "opacity-0 translate-y-1"
-| To: "opacity-100 translate-y-0"
-| Leaving: "transition ease-in duration-150"
-| From: "opacity-100 translate-y-0"
-| To: "opacity-0 translate-y-1"-->
-                <div class="absolute hidden z-10 mt-3 w-screen max-w-md transform px-2 sm:px-0 lg:max-w-3xl left-0 opacity-0 translate-y-1" data-dropdown-target="menu">
-                    <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
-                        <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
-                            <a class="-m-3 flex items-start rounded-lg p-3 transition duration-150 ease-in-out hover:bg-gray-50" href="{{ '/formations' | relative_url }}">
-                                <div class="flex h-10 w-10 flex-shrink-0 items-center justify-center text-white sm:h-12 sm:w-12"><img alt="" class="h-full w-full" src="/images/hubs/formations.png">
-                                    <!--Heroicon name: outline/chart-bar-->
-                                </div>
-                                <div class="ml-4">
-                                    <p class="text-base font-medium text-gray-900">Formations</p>
-                                    <p class="mt-1 text-sm text-gray-500">Se former pour prendre confiance, semer et planter</p>
-                                </div>
-                            </a>
-                            <a class="-m-3 flex items-start rounded-lg p-3 transition duration-150 ease-in-out hover:bg-gray-50" href="{{ '/poles/design-jardins-forets' | relative_url }}">
-                                <div class="flex h-10 w-10 flex-shrink-0 items-center justify-center text-white sm:h-12 sm:w-12">
-                                  <img alt="" class="h-full w-full" src="/images/hubs/bureau.png">
-                                </div>
-                                <div class="ml-4">
-                                    <p class="text-base font-medium text-gray-900">Bureau d'études</p>
-                                    <p class="mt-1 text-sm text-gray-500">Nos services de conception pour particuliers, entreprises et collectifs</p>
-                                </div>
-                            </a>
-                            <a class="-m-3 flex items-start rounded-lg p-3 transition duration-150 ease-in-out hover:bg-gray-50" href="{{ '/poles/food-forest-heroes' | relative_url }}">
-                                <div class="flex h-10 w-10 flex-shrink-0 items-center justify-center text-white sm:h-12 sm:w-12"><img alt="" class="h-full w-full" src="/images/hubs/heroes.png">
-                                    <!--Heroicon name: outline/arrow-path-->
-                                </div>
-                                <div class="ml-4">
-                                    <p class="text-base font-medium text-gray-900">Food Forest Heroes</p>
-                                    <p class="mt-1 text-sm text-gray-500">Transformer son entreprise par la plantation d'une forêt nourricière</p>
-                                </div>
-                            </a>
-                            <a class="-m-3 flex items-start rounded-lg p-3 transition duration-150 ease-in-out hover:bg-gray-50" href="{{ '/poles/chasseur-de-plants' | relative_url }}">
-                                <div class="flex h-10 w-10 flex-shrink-0 items-center justify-center text-white sm:h-12 sm:w-12"><img alt="" class="h-full w-full" src="/images/hubs/chasseur-de-plants.png">
-                                    <!--Heroicon name: outline/document-chart-bar-->
-                                </div>
-                                <div class="ml-4">
-                                    <p class="text-base font-medium text-gray-900">Chasseur de plants</p>
-                                    <p class="mt-1 text-sm text-gray-500">Notre service de recherche de plants en pépinière</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                    <a class="{% if resource.relative_url == '/evenements/' %}text-gray-900{% else %}text-gray-500{% endif %} font-medium hover:text-gray-900" href="{{ '/evenements' | relative_url }}">Événements</a>
+            <div class="hidden md:ml-10 md:block md:space-x-6">
+                    <a class="{% if resource.relative_url == '/formations/' %}text-gray-900{% else %}text-gray-500{% endif %} font-medium hover:text-gray-900" href="{{ '/formations' | relative_url }}">Formations</a>
+                    <a class="{% if resource.relative_url == '/poles/design-jardins-forets/' %}text-gray-900{% else %}text-gray-500{% endif %} font-medium hover:text-gray-900" href="{{ '/poles/design-jardins-forets' | relative_url }}">Bureau d'études</a>
+                    <!--a class="{% if resource.relative_url == '/evenements/' %}text-gray-900{% else %}text-gray-500{% endif %} font-medium hover:text-gray-900" href="{{ '/evenements' | relative_url }}">Événements</a-->
                     <a class="{% if resource.relative_url == '/forets-comestibles/' %}text-gray-900{% else %}text-gray-500{% endif %} font-medium hover:text-gray-900" href="{{ '/forets-comestibles' | relative_url }}">Forêts comestibles</a>
                     <a class="{% if resource.relative_url == '/a-propos-de-semisto/' %}text-gray-900{% else %}text-gray-500{% endif %} font-medium md:hidden lg:inline-block lg:hover:text-gray-900" href="{{ '/a-propos-de-semisto' | relative_url }}">À propos</a>
                     <a class="{% if resource.relative_url == '/contact/' %}text-gray-900{% else %}text-gray-500{% endif %} font-medium hover:text-gray-900" href="{{ '/contact' | relative_url }}">Contact</a>
@@ -96,10 +46,10 @@
             </div>
             <div class="space-y-1 px-2 pt-2 pb-3">
               <a class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900" href="{{ '/formations' | relative_url }}">Formations</a>
-              <a class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900" href="{{ '/evenements' | relative_url }}">Événements</a>
+              <!--a class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900" href="{{ '/evenements' | relative_url }}">Événements</a-->
               <a class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900" href="{{ '/poles/design-jardins-forets' | relative_url }}">Bureau d'études</a>
-              <a class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900" href="{{ '/poles/food-forest-heroes' | relative_url }}">Food Forest Heroes</a>
-              <a class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900" href="{{ '/poles/chasseur-de-plants' | relative_url }}">Chasseur de plants</a>
+              <!--a class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900" href="{{ '/poles/food-forest-heroes' | relative_url }}">Food Forest Heroes</a-->
+              <!--a class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900" href="{{ '/poles/chasseur-de-plants' | relative_url }}">Chasseur de plants</a-->
               <a class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900" href="{{ '/forets-comestibles' | relative_url }}">Forêts comestibles</a>
               <a class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900" href="{{ '/a-propos-de-semisto' | relative_url }}">À propos</a>
               <a class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900" href="{{ '/contact' | relative_url }}">Contact</a>
